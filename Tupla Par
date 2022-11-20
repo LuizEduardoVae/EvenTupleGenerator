@@ -1,2 +1,16 @@
 def tupla_par():
-    print
+    print("Gerador de Tupla Par:")
+
+    n = int(input("Digite o numero de elemtentos da sua tupla:"))
+    tuplaGeral = ()
+
+    for i in range(n):
+        x = input("Digite os componentes da sua tupla:")
+        tuplaGeral = tuplaGeral + tuple([x])
+    
+    print(tuplaGeral)
+    
+    
+    
+
+tupla_par()
