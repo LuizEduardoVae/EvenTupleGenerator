@@ -1,5 +1,5 @@
 def tupla_par():
-    print("Gerador de Tupla Par:")
+    print("Gerador de Tupla Par!")
 
     n = int(input("Digite o numero de elemtentos da sua tupla:"))
     tuplaGeral = ()
@@ -10,7 +10,8 @@ def tupla_par():
     
     print(tuplaGeral)
     
+    tuplaPar = (tuplaGeral[::2])
     
-    
+    print(tuplaPar)
 
 tupla_par()
